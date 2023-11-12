@@ -5,6 +5,9 @@
 }
 
 /* header */
+header{
+    position: relative;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -48,13 +51,73 @@ a{
     margin-left: 4vw;
     
 }
+.section-one{
+    height: 100vh;
+}
+
+.first-img img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    z-index: -99;
+}
+.first-text{
+    position: absolute;
+    left: 13vw;
+    top: 30vh;
+}
+.first-text h1{
+    font-size: 60px;
+    color: #314584;
+    margin-bottom: 5vh;
+}
+.first-text p{
+    opacity: 0.6;
+    margin-bottom: 5vh;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+}
+.links a{
+    font-size: 13px;
+    font-weight: bold;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.links .More_about_us-btn{
+    width: 13vw;
+    display: flex;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    text-align: center;
+    border-radius: 50px 50px 50px 50px;
+    border: red 2px solid;
+}
+.links .More_about_us-btn:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+.links .More_about_us-btn:hover a{
+    color: #314584;
+    transition: 0.5s;
+}
+.links .More_about_us-btn a{
+    color: white;
+    text-decoration: none;
+}
 
 /* main */
 main{
     margin-top: 30px;
 }
-
-
 
 
 .section-two{
