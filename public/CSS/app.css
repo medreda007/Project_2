@@ -15,7 +15,6 @@
     position: absolute;
     left: -25px;
     height: 130vh;
-
     z-index: -99;
 }
 .side-image2 img{
@@ -39,7 +38,7 @@
     color:#314584;
 }
 .row_one h2{
-    font-size: 40px;
+    font-size: 34px;
 }
 .row_one .get_in_touch-btn {
     width: 10vw;
@@ -67,7 +66,7 @@
 }
 
 .box{
-    margin: 6vh 3vw;
+    margin: 5vh 2.5vw;
     
 }
 
@@ -81,14 +80,15 @@
 }
 
 .box img,h3,p{
-    margin-bottom: 4vh;
+    margin-bottom: 3vh;
 }
 .box h3{
-    font-size: 28px;
+    font-size: 24px;
 }
 .box p{
+    font-size: 12.5px;
+    word-spacing: 1.7px;
     letter-spacing: 2px;
-    font-weight: 500;
 }
 
 .row_three{
@@ -107,16 +107,16 @@
     flex-direction: column;
     height: 10vh;
     justify-content: space-around;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     margin-bottom: 5vh;
 }
 .title h5{
     color: red;
-    font-size: 14px;
+    font-size: 11px;
 }
 .title h2{
     color: #314584;
-    font-size: 35px;
+    font-size: 33px;
 }
 .support{
     display: flex;
@@ -146,7 +146,7 @@
 }
 input::placeholder{
     color:#314584;
-    font-size: 14px;
+    font-size: 11px;
     font-weight: bold;
     padding-left: 1.5vw;
 }
@@ -162,7 +162,7 @@ input::placeholder{
     background-color: #f4fafe;
     border: none;
     color:#314584;
-    font-size: 14px;
+    font-size: 11px;
     font-weight: bold;
     padding: 3vh 0 0 1.5vw;
     border-radius: 4px;
