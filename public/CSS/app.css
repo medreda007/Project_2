@@ -65,3 +65,28 @@
     color: white;
     text-decoration: none;
 }
+
+.box{
+    margin: 6vh 3vw;
+    
+}
+
+.row_two{
+    width: 22vw;
+    height: 55vh;
+    color:#314584;
+    z-index: 9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.box img,h3,p{
+    margin-bottom: 4vh;
+}
+.box h3{
+    font-size: 28px;
+}
+.box p{
+    letter-spacing: 2px;
+    font-weight: 500;
+}
