@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+
+
+/* main */
+.section-two{
+    position: relative;    
+}
+.side-image1 img{
+    position: absolute;
+    left: -25px;
+    height: 130vh;
+
+    z-index: -99;
+}
+.side-image2 img{
+    position: absolute;
+    height: 130vh;
+    right: 0px;
+    top: 41vh;
+    z-index: -99;
+}
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 13vw;
+    margin-bottom: 12vh;
+}
+.row_one{
+    width: 24vw;
+    height: 40vh;
+    z-index: 9;
+    color:#314584;
+}
+.row_one h2{
+    font-size: 40px;
+}
+.row_one .get_in_touch-btn {
+    width: 10vw;
+    display: flex;
+    height: 6vh;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    text-align: center;
+    border-radius: 50px 50px 50px 50px;
+    margin-top: 8vh;
+    border: red 2px solid;
+}
+.row_one .get_in_touch-btn:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+.row_one .get_in_touch-btn:hover a{
+    color: #314584;
+    transition: 0.5s;
+}
+.row_one .get_in_touch-btn a{
+    color: white;
+    text-decoration: none;
+}
