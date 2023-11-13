@@ -51,6 +51,13 @@ a{
     margin-left: 4vw;
     
 }
+.signin:hover{
+    background-color: #ff0000;
+    color: white;
+    border-radius: 50px 50px 50px 50px;
+    transition: 0.7s;
+
+}
 .section-one{
     height: 100vh;
 }
@@ -134,7 +141,7 @@ main{
     height: 130vh;
     right: 0px;
     top: 41vh;
-    z-index: -99;
+    z-index: -9;
 }
 
 .services{
@@ -188,7 +195,6 @@ main{
     color:#314584;
     z-index: 9;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 .box img,h3,p{
@@ -209,6 +215,18 @@ main{
     z-index: 9;
     color:#314584;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.row_three:hover{
+    background-color: #ff0000;
+    height: 50vh;
+    transition: 0.9s;
+    color: white;
+}
+.row_two:hover{
+    background-color: #ff0000;
+    height: 50vh;
+    transition: 0.9s;
+    color: white;
 }
 /* section-three */
 .section-three{
@@ -312,6 +330,9 @@ input::placeholder{
 
 /* saad part  */
 
+.general{
+    z-index: 100;
+}
 .general{
     padding-top: 2%;
     padding-bottom: 2%;
